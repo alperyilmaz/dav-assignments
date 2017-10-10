@@ -1,0 +1,96 @@
+# Chapter 2 - Data
+
+The structure of your data will dictate how you construct plots in ggplot2. In this chapter, you’ll explore the iris dataset from several different perspectives to showcase this concept. You’ll see that making your data conform to a structure that matches the plot in mind will make the task of visualization much easier through several R data visualization examples.
+
+## Objects and Layers
+
+## base package and ggplot2, part 1 - plot
+
+## base package and ggplot2, part 2 - lm
+
+## base package and ggplot2, part 3
+
+## ggplot2 compared to base package
+
+## Proper Data Format
+
+## Plotting the ggplot2 way
+
+## Tidy Data
+
+## Variables to visuals, part 1
+
+## Variables to visuals, part 1b
+
+## Variables to visuals, part 2
+
+## Variables to visuals, part 2b
+
+# Chapter 3 Aesthetics
+
+Aesthetic mappings are the cornerstone of the grammar of graphics plotting concept. This is where the magic happens - converting continuous and categorical data into visual scales that provide access to a large amount of information in a very short time. In this chapter you’ll understand how to choose the best aesthetic mappings for your data.
+
+## Visible Aesthetics
+
+## All about aesthetics, part 1
+
+## All about aesthetics, part 2
+
+## All about aesthetics, part 3
+
+## All about attributes, part 1
+
+## All about attributes, part 2
+
+## Going all out
+
+## Aesthetics for categorical and continuous variables
+
+## Modifying Aesthetics
+
+## Position
+
+## Setting a dummy aesthetic
+
+## Aesthetics Best Practices
+
+## Overplotting 1 - Point shape and transparency
+
+## Overplotting 2 - alpha with large datasets
+
+# Chapter 4 Geometries
+
+A plot’s geometry dictates what visual elements will be used. In this chapter, we’ll familiarize you with the geometries used in the three most common plot types you’ll encounter - scatter plots, bar charts and line plots. We’ll look at a variety of different ways to construct these plots.
+
+## Scatter Plots
+
+## Scatter plots and jittering (1)
+
+## Scatter plots and jittering (2)
+
+## Bar Plots
+
+## Histograms
+
+## Position
+
+## Overlapping bar plots
+
+## Overlapping histograms
+
+## Bar plots with color ramp, part 1
+
+## Bar plots with color ramp, part 2
+
+## Overlapping histograms (2)
+
+## Line Plots - Time Series
+
+## Line plots
+
+## Periods of recession
+
+## Multiple time series, part 1
+
+## Multiple time series, part 2
+
