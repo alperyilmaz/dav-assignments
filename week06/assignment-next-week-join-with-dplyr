@@ -1,0 +1,195 @@
+Joining Data in R with dplyr
+
+    1Mutating joinsFREE
+    100%
+
+    Mutating joins add new variables to one dataset from another dataset, matching observations across rows in the process. This chapter will explain the various ways you can join datasets together and what happens when you do.
+        Welcome to the course!
+        50xp
+        The advantages of dplyr
+        50xp
+        Keys
+        50xp
+        Primary keys
+        50xp
+        Secondary keys
+        50xp
+        Multi-variable keys
+        50xp
+        Joins
+        50xp
+        A basic join
+        100xp
+        A second join
+        100xp
+        A right join
+        100xp
+        Variations on joins
+        50xp
+        Inner joins and full joins
+        100xp
+        Pipes
+        100xp
+        Practice with pipes and joins
+        100xp
+        Choose your joins
+        100xp
+    Hide Details
+    2Filtering joins and set operations
+    100%
+
+    Filtering joins and set operations combine information from datasets without adding new variables. Filtering joins filter the observations of one dataset based on whether or not they occur in a second dataset. Set operations use combinations of observations from both datasets to create a new dataset.
+        Semi-joins
+        50xp
+        Apply a semi-join
+        100xp
+        Exploring with semi-joins
+        100xp
+        A more precise way to filter?
+        50xp
+        Anti-joins
+        50xp
+        Apply an anti-join
+        100xp
+        Apply another anti-join
+        100xp
+        Which filtering join?
+        100xp
+        Set operations
+        50xp
+        How many songs are there?
+        100xp
+        Greatest hits
+        100xp
+        Live! Bootleg songs
+        100xp
+        Multiple operations
+        100xp
+        Unique values
+        50xp
+        Comparing datasets
+        50xp
+        Apply setequal
+        100xp
+        Apply setequal again
+        100xp
+        Comparing albums
+        100xp
+    Hide Details
+    3Assembling data
+    100%
+
+    This chapter will show you how to build datasets from basic elements: vectors, lists, and individual datasets that do not require a join. dplyr contains a set of functions for assembling data that work more intuitively than base R's functions. The chapter will also look at when dplyr does and does not use data type coercion.
+        Binds
+        50xp
+        Differences between dplyr and base R
+        50xp
+        Which bind?
+        100xp
+        Bind rows
+        100xp
+        Bind columns
+        100xp
+        Danger
+        50xp
+        Build a better data frame
+        50xp
+        data_frame
+        50xp
+        Make a data frame
+        100xp
+        Lists of columns
+        100xp
+        Lists of rows (data frames)
+        100xp
+        Working with data types
+        50xp
+        Atomic data types
+        50xp
+        dplyr's coercion rules
+        50xp
+        dplyr and coercion
+        50xp
+        Determining type
+        50xp
+        Results
+        100xp
+    Hide Details
+    4Advanced joining
+    100%
+
+    Now that you have the basics, let's dive deep into the mechanics of joins. This chapter will show you how to spot common join problems, how to join based on multiple or mismatched keys, how to join multiple tables, and how to recreate dplyr's joins with SQL and base R.
+        What can go wrong?
+        50xp
+        Spot the key
+        100xp
+        Non-unique keys
+        50xp
+        Two non-unique keys
+        50xp
+        Missing keys
+        100xp
+        Defining the keys
+        50xp
+        Which keys?
+        50xp
+        A subset of keys
+        100xp
+        Mis-matched key names
+        100xp
+        More mismatched names
+        100xp
+        Joining multiple tables
+        50xp
+        Multiple joins
+        50xp
+        Join multiple tables
+        100xp
+        Filter multiple tables
+        70/100xp
+        Other implementations
+        50xp
+        SQL
+        50xp
+        Base R
+        100xp
+    Hide Details
+    5Case study
+    100%
+
+    You know the ins and outs of two-table verbs with dplyr, but your knowledge is untried! Let's cement what you've learned with a real world application.
+        Lahman's Baseball Database
+        50xp
+        Universal keys?
+        70/100xp
+        Common keys
+        100xp
+        playerID
+        100xp
+        Salaries
+        50xp
+        Who are the players?
+        100xp
+        Missing salaries
+        100xp
+        Unpaid games?
+        100xp
+        How many games?
+        100xp
+        How many at-bats?
+        100xp
+        Introducing the hall of fame
+        50xp
+        Hall of fame nominations
+        100xp
+        Hall of fame inductions
+        100xp
+        Awards
+        100xp
+        Salary
+        100xp
+        Retirement
+        100xp
+        Congratulations!
+        50xp
+    Hide Details
